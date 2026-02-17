@@ -1,0 +1,53 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panel de ventas accesible</title>
+  <style>
+    body { font-family: Tahoma, sans-serif; margin: 0; color: #111; background: #fff; }
+    .wrap { max-width: 900px; margin: 0 auto; padding: 1rem; }
+    table { width: 100%; border-collapse: collapse; }
+    caption { text-align: left; font-weight: 700; margin-bottom: 0.5rem; }
+    th, td { border: 1px solid #4a4a4a; padding: 0.6rem; }
+    th { background: #eaf2ff; }
+    a { color: #004a9f; }
+    :focus-visible { outline: 3px solid #ffbf47; outline-offset: 2px; }
+  </style>
+</head>
+<body>
+  <a href="#principal">Saltar al contenido principal</a>
+  <header class="wrap">
+    <h1>Panel de ventas</h1>
+  </header>
+  <main id="principal" class="wrap">
+    <section aria-labelledby="titulo-tabla">
+      <h2 id="titulo-tabla">Resumen mensual</h2>
+      <table>
+        <caption>Totales de ventas del primer trimestre</caption>
+        <thead>
+          <tr>
+            <th scope="col">Mes</th>
+            <th scope="col">Total (EUR)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Enero</th>
+            <td>1200</td>
+          </tr>
+          <tr>
+            <th scope="row">Febrero</th>
+            <td>1800</td>
+          </tr>
+          <tr>
+            <th scope="row">Marzo</th>
+            <td>1650</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><a href="/ventas/detalle">Ver detalle completo de ventas</a></p>
+    </section>
+  </main>
+</body>
+</html>

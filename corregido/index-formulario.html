@@ -1,0 +1,66 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registro accesible</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #111111;
+      --muted: #333333;
+      --primary: #004a9f;
+      --focus: #ffbf47;
+      --error: #b00020;
+    }
+    body { font-family: Verdana, sans-serif; background: var(--bg); color: var(--text); line-height: 1.5; margin: 0; }
+    .container { max-width: 800px; margin: 0 auto; padding: 1rem; }
+    .skip-link {
+      position: absolute; left: 0; top: -1000px; background: #000; color: #fff; padding: 0.5rem;
+    }
+    .skip-link:focus { top: 0; z-index: 1000; }
+    a, button, input { font-size: 1rem; }
+    :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+    label { display: block; margin-top: 0.75rem; }
+    .hint { color: var(--muted); font-size: 0.95rem; }
+    .error { color: var(--error); font-weight: 700; }
+    button { margin-top: 1rem; background: var(--primary); color: #fff; border: none; padding: 0.7rem 1rem; }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+  <header class="container">
+    <h1>Formulario de alta</h1>
+    <p class="hint">Todos los campos marcados con * son obligatorios.</p>
+  </header>
+  <main id="contenido" class="container">
+    <form action="#" method="post" novalidate aria-describedby="ayuda-formulario">
+      <p id="ayuda-formulario" class="hint">Completa la informacion para crear tu cuenta.</p>
+      <fieldset>
+        <legend>Datos personales</legend>
+        <label for="nombre">Nombre completo *</label>
+        <input id="nombre" name="nombre" type="text" autocomplete="name" required>
+
+        <label for="email">Correo electronico *</label>
+        <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-ayuda">
+        <p id="email-ayuda" class="hint">Ejemplo: nombre@dominio.com</p>
+
+        <label for="clave">Contrasena *</label>
+        <input id="clave" name="clave" type="password" autocomplete="new-password" minlength="10" required>
+      </fieldset>
+
+      <fieldset>
+        <legend>Consentimiento</legend>
+        <input id="acepto" name="acepto" type="checkbox" required>
+        <label for="acepto">Acepto los terminos y condiciones *</label>
+      </fieldset>
+
+      <button type="submit">Crear cuenta</button>
+    </form>
+    <p><a href="/condiciones">Leer terminos y condiciones de uso</a></p>
+  </main>
+  <footer class="container">
+    <p>Soporte: <a href="mailto:soporte@example.com">soporte@example.com</a></p>
+  </footer>
+</body>
+</html>

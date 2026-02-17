@@ -1,0 +1,3 @@
+﻿# Ignore local browser cache / temp
+*.tmp
+Thumbs.db
