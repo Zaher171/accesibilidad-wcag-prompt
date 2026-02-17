@@ -1,0 +1,118 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tarea WCAG 2.2 - Acceso rápido</title>
+  <style>
+    :root {
+      --bg: #f6f9fc;
+      --surface: #ffffff;
+      --text: #102a43;
+      --muted: #486581;
+      --border: #d9e2ec;
+      --accent: #0b6e4f;
+      --accent-2: #1e88e5;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: var(--text);
+      background: radial-gradient(circle at top right, #e6f4ea 0%, var(--bg) 40%);
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px;
+      box-shadow: 0 8px 22px rgba(16, 42, 67, 0.08);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(1.6rem, 2.6vw, 2.2rem);
+      line-height: 1.2;
+    }
+
+    p {
+      margin: 0 0 18px;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    h2 {
+      margin: 20px 0 10px;
+      font-size: 1.1rem;
+    }
+
+    .links {
+      display: grid;
+      gap: 10px;
+    }
+
+    a {
+      display: block;
+      padding: 12px 14px;
+      border-radius: 10px;
+      text-decoration: none;
+      color: var(--text);
+      border: 1px solid var(--border);
+      background: #fdfefe;
+      font-weight: 600;
+    }
+
+    a:hover,
+    a:focus-visible {
+      outline: 3px solid #93c5fd;
+      border-color: #60a5fa;
+      background: #eff6ff;
+    }
+
+    .tag {
+      display: inline-block;
+      margin-left: 8px;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: white;
+      vertical-align: middle;
+    }
+
+    .orig { background: var(--accent-2); }
+    .fix { background: var(--accent); }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card">
+      <h1>Proyecto: Accesibilidad Web WCAG 2.2</h1>
+      <p>Portada de presentación. Desde aquí puedes abrir directamente cada archivo de la tarea.</p>
+
+      <h2>Versiones originales (con problemas)</h2>
+      <nav class="links" aria-label="Enlaces a páginas originales">
+        <a href="original/index-formulario.html">Formulario <span class="tag orig">ORIGINAL</span></a>
+        <a href="original/index-tabla.html">Tabla <span class="tag orig">ORIGINAL</span></a>
+        <a href="original/index-media.html">Media <span class="tag orig">ORIGINAL</span></a>
+      </nav>
+
+      <h2>Versiones corregidas (accesibles)</h2>
+      <nav class="links" aria-label="Enlaces a páginas corregidas">
+        <a href="corregido/index-formulario.html">Formulario <span class="tag fix">CORREGIDO</span></a>
+        <a href="corregido/index-tabla.html">Tabla <span class="tag fix">CORREGIDO</span></a>
+        <a href="corregido/index-media.html">Media <span class="tag fix">CORREGIDO</span></a>
+      </nav>
+    </section>
+  </main>
+</body>
+</html>
