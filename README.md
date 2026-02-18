@@ -52,11 +52,13 @@ Se han utilizado las siguientes herramientas profesionales de auditoría:
 
 ### axe DevTools
 
-![axe-before-formulario](./axe-before-formulario.png)
+<img width="1917" height="1015" alt="axe-before-formulario" src="https://github.com/user-attachments/assets/267e2317-5427-4441-81b5-478ac251b774" />
+
 
 ### Lighthouse
 
-![lighthouse-before-formulario](./lighthouse-before-formulario.png)
+<img width="1917" height="1015" alt="lighthouse-before-formulario" src="https://github.com/user-attachments/assets/c5a0524d-4722-404f-8d0b-73c9a06bd3b1" />
+
 
 ---
 
@@ -74,16 +76,17 @@ Se han utilizado las siguientes herramientas profesionales de auditoría:
 ## 🟢 Evidencias – Después de las mejoras
 
 ### WAVE
-
-![wave-after-formulario](./wave-after-formulario.png)
+<img width="1903" height="975" alt="wave-after-formulario" src="https://github.com/user-attachments/assets/04540f07-323a-4459-b2f9-029056aa2bd5" />
 
 ### axe DevTools
 
-![axe-after-formulario](./axe-after-formulario.png)
+<img width="1899" height="1033" alt="axe-after-formulario" src="https://github.com/user-attachments/assets/33b0b888-0ecf-4413-afc5-f3ced61d248d" />
+
 
 ### Lighthouse
 
-![lighthouse-after-formulario](./lighthouse-after-formulario.png)
+<img width="1912" height="965" alt="lighthouse-after-formulario" src="https://github.com/user-attachments/assets/1d3ab2e8-c858-4f8f-b0a3-419823df3e2f" />
+
 
 ---
 
@@ -103,15 +106,20 @@ Se han utilizado las siguientes herramientas profesionales de auditoría:
 
 ### WAVE
 
-![wave-before-media](./wave-before-media.png)
+<img width="1916" height="960" alt="wave-before-media" src="https://github.com/user-attachments/assets/1ca4330a-a04b-43a2-9f7d-e6b91b631be0" />
+
 
 ### axe DevTools
 
-![axe-before-media](./axe-before-media.png)
+<img width="1916" height="960" alt="axe-before-media" src="https://github.com/user-attachments/assets/b7e6a9b7-13bb-4263-971d-0685074f8b38" />
+
+
 
 ### Lighthouse
 
-![lighthouse-before-media](./lighthouse-before-media.png)
+<img width="1917" height="952" alt="lighthouse-before-media" src="https://github.com/user-attachments/assets/c702fbc5-9782-44c3-88d2-605027e5e1d5" />
+
+
 
 ---
 
@@ -129,15 +137,18 @@ Se han utilizado las siguientes herramientas profesionales de auditoría:
 
 ### WAVE
 
-![wave-after-media](./wave-after-media.png)
+<img width="1916" height="1019" alt="wave-after-media" src="https://github.com/user-attachments/assets/5badf7c3-1b4a-4fe6-9a62-42e9f53959c4" />
+
 
 ### axe DevTools
 
-![axe-after-media](./axe-after-media.png)
+<img width="1913" height="1007" alt="axe-after-media" src="https://github.com/user-attachments/assets/831a64bb-24b4-401f-bd42-fc41e46aa395" />
+
 
 ### Lighthouse
 
-![lighthouse-after-media](./lighthouse-after-media.png)
+<img width="1914" height="975" alt="lighthouse-after-media" src="https://github.com/user-attachments/assets/072e3a65-2e1b-459f-93af-5193fdf7b5db" />
+
 
 ---
 
@@ -157,15 +168,18 @@ Se han utilizado las siguientes herramientas profesionales de auditoría:
 
 ### WAVE
 
-![wave-before-tabla](./wave-before-tabla.png)
+<img width="1916" height="986" alt="wave-before-tabla" src="https://github.com/user-attachments/assets/04301250-2778-4ca1-b104-1701beee2fe0" />
+
 
 ### axe DevTools
 
-![axe-before-tabla](./axe-before-tabla.png)
+<img width="1916" height="986" alt="axe-before-tabla" src="https://github.com/user-attachments/assets/7ce82899-546d-4af8-9688-7fc9c9238522" />
+
 
 ### Lighthouse
 
-![lighthouse-before-tabla](./lighthouse-before-tabla.png)
+<img width="1919" height="955" alt="lighthouse-before-tabla" src="https://github.com/user-attachments/assets/48defe09-e566-445c-8c88-dbd0f86603b8" />
+
 
 ---
 
@@ -183,15 +197,18 @@ Se han utilizado las siguientes herramientas profesionales de auditoría:
 
 ### WAVE
 
-![wave-after-tabla](./wave-after-tabla.png)
+<img width="1915" height="1022" alt="wave-after-tabla" src="https://github.com/user-attachments/assets/037545f7-effc-409a-b319-49b2ab2df0fc" />
+
 
 ### axe DevTools
 
-![axe-after-tabla](./axe-after-tabla.png)
+<img width="1904" height="1025" alt="axe-after-tabla" src="https://github.com/user-attachments/assets/4f17eb73-60df-4743-a730-8f44e93c8e50" />
+
 
 ### Lighthouse
 
-![lighthouse-after-tabla](./lighthouse-after-tabla.png)
+<img width="1913" height="990" alt="lighthouse-after-tabla" src="https://github.com/user-attachments/assets/d2679d98-5245-4772-a534-98f6a3b57d31" />
+
 
 ---
 
