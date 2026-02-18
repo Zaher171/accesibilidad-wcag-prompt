@@ -47,7 +47,8 @@ Se han utilizado las siguientes herramientas profesionales de auditoría:
 
 ### WAVE
 
-![wave-before-formulario](./wave-before-formulario.png)
+<img width="1917" height="1015" alt="wave-before-formulario" src="https://github.com/user-attachments/assets/1c223107-653f-4ca4-ac6e-e7835097c132" />
+
 
 ### axe DevTools
 
